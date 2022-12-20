@@ -7,7 +7,7 @@
   <title>Document</title>
 </head>
 <body>
-  <form action="submit.php" method="get">
+  <form action="pengecekanNilai.php" method="get">
 Masukan Nilai <input type="number" name="angka">
 <input type="submit">
 </body>
