@@ -1,0 +1,2 @@
+-Mempelajari Dasar - Dasae Git & Membuat Repository (DONE)
+-Mempelajari Dasar - Dasar PHP
