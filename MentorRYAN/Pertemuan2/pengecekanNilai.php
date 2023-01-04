@@ -34,5 +34,5 @@ if ($nilai < 30) {
 // 31-50 = Lumayan
 // 51-75 = ya boleh lah
 // 76-100 = mantapp
-// 100 ++ = diluar nalar coy
+// 100 ++ = diluar nalar coy
 ?>
