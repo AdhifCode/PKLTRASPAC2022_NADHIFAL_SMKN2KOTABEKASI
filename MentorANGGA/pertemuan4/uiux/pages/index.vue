@@ -1,5 +1,6 @@
 <template>
-  <div class="kelas">
+  <div class="background">
+    <div class="kelas">
     <div class="judul">
       <h1>Dad Jokes</h1>
     </div>
@@ -12,7 +13,7 @@
         v-model="cari"
         label="Search a Dad Jokes"
         single-line
-        hide-details
+        hide-details  
         placehoder="Ni ai wo wo ai ni mi xue bing cheng tianmi mi ni ai wo wo ai ni"
       ></v-text-field>
       </v-toolbar>
@@ -35,16 +36,25 @@
 
   
   </div>
+  </div>
+  
 </template>
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+html{
+  background: 
+#D9D9D9;
+height: 100%;
+}
+
 .kelas{
   margin: auto;
   align-items: center;
   width: 60%;
   margin-top: 32px;
   font-family: poppins;
+
 }
 
 .judul{
