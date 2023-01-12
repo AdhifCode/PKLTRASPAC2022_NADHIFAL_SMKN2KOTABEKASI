@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="1">
+        <h4>Nomer 1</h4>
+        <p id="1"></p>
+    </div>
+    <div class="2">
+        <h4>Nomer 2</h4>
+        <p id="2"></p>
+    </div>
+    <div class="3">
+        <h4>Nomer 3</h4>
+        <p id="3"></p>
+    </div>
+    <div class="4">
+        <h4>Nomer 4</h4>
+        <p id="4"></p>
+    </div>
+</body>
+<script>
+// 1
+    let arr = ['Pisang',' Apel',' Nanas'] ;
+    let arr2 = [' Mangga',' Anggur',' Leci'];
+
+    let arr3 = arr.concat(arr2);
+
+    document.getElementById("1").innerHTML = arr3;
+    console.log(arr3)
+
+// 2
+    let text_2 = 'Are you okay?';
+    let misah = text_2.split(' ');
+    document.getElementById("2").innerHTML = misah;
+    console.log(misah)
+
+// 3
+    let text_3 = 'Hello my name is Adhif';
+    let nama = text_3.substring(17, 22);
+    document.getElementById("3").innerHTML = nama;
+    console.log(nama);
+
+// 4
+    const text_4 = 'Hello my name is Bjirkah';
+    const caps = text_4.toUpperCase();
+    const split = caps.split(" ");
+    let change = split.join("_");
+    let changes = change.split("").reverse().join("");
+    document.getElementById("4").innerHTML = changes;
+    console.log(changes)
+</script>
+</html>
